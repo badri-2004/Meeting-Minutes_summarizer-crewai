@@ -1,4 +1,4 @@
-# 🚀 Meeting Minutes Summarizer - CrewAI Project
+# Meeting Minutes Summarizer - CrewAI Project
 
 ![Built With](https://img.shields.io/badge/Built%20With-CrewAI-blue)
 
