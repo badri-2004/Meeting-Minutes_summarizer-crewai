@@ -92,6 +92,9 @@ When you run `main.py`, the following happens:
     - Formats it nicely.
     - Sends it via email automatically.
 
+```markdown
+![Flow plotted in crewai](path/to/your/sample-email-screenshot.png)
+```
 ---
 ## Sample Output:
 
