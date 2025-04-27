@@ -92,16 +92,14 @@ When you run `main.py`, the following happens:
     - Formats it nicely.
     - Sends it via email automatically.
 
-```markdown
-![Flow plotted in crewai](https://github.com/badri-2004/Meeting-Minutes_summarizer-crewai/blob/main/images/Crew_flow.png)
-```
+
+![Flow plotted in CrewAI](https://github.com/badri-2004/Meeting-Minutes_summarizer-crewai/blob/main/images/Crew_flow.png)
+
 ---
 ## Sample Output:
 
-```markdown
 ![Sample Email Output](https://github.com/badri-2004/Meeting-Minutes_summarizer-crewai/blob/main/images/Sample_output_for_meeting_minutes.png)
-```
----
+
  
 ## Installation
 
