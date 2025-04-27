@@ -93,20 +93,20 @@ When you run `main.py`, the following happens:
     - Sends it via email automatically.
 
 ```markdown
-![Flow plotted in crewai](path/to/your/sample-email-screenshot.png)
+![Flow plotted in crewai](https://github.com/badri-2004/Meeting-Minutes_summarizer-crewai/blob/main/images/Crew_flow.png)
 ```
 ---
 ## Sample Output:
 
 ```markdown
-![Sample Email Output](images/Sample_output_for_meeting_minutes.png)
+![Sample Email Output](https://github.com/badri-2004/Meeting-Minutes_summarizer-crewai/blob/main/images/Sample_output_for_meeting_minutes.png)
 ```
 ---
  
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/Meeting-Minutes_summarizer-crewai.git
+git clone https://github.com/badri-2004/Meeting-Minutes_summarizer-crewai.git
 cd Meeting-Minutes_summarizer-crewai
 ```
 
