@@ -99,7 +99,7 @@ When you run `main.py`, the following happens:
 ## Sample Output:
 
 ```markdown
-![Sample Email Output](path/to/your/sample-email-screenshot.png)
+![Sample Email Output](images/Sample_output_for_meeting_minutes.png)
 ```
 ---
  
