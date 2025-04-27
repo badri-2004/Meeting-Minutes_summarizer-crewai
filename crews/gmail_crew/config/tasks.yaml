@@ -1,0 +1,10 @@
+emailing_task:
+  description: " Here is the summary of a meeting {summary}. Extract the subject and summary separately and use the tool with input format (receiver|subject|summary) here is the mail id of the receiver badri281104@gmail.com. use only bolds and underlines Use <b>word</b> to get word in bold and <u>word</u> to get word underlined. For bullet points use
+  <ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  </ul>
+  Subject should be plain, No bold, No underline."
+  expected_output: "A beautifully formatted email successfully sent to the recipient"
+  agent : emailer

@@ -1,0 +1,39 @@
+meeting_minutes_summary_task:
+  description: >
+    Summarize the meeting transcript into a summary with the following transcript:
+    {transcript}
+
+    Write the summary to a file called "summary.txt" in the "meeting_minutes" directory.  This is provided by the tool.
+
+    Write the action items to a file called "action_items.txt" in the "meeting_minutes" directory.  This is provided by the tool.
+
+    I would like you to return the action items from the meeting transcript in the following format:
+    - Action item 1
+    - Action item 2
+    - ...
+
+    I would also like you to analyze the sentiment of the meeting transcript and write it to a file called "sentiment.txt" in the "meeting_minutes" directory.  This is provided by the tool.
+
+  expected_output: >
+    A summary of the meeting transcript and a list of action items.
+  agent: meeting_minutes_summarizer
+
+meeting_minutes_writing_task:
+  description: >
+    Write the meeting minutes based on the summary, action items and sentiment.  This should give everything needed to know based on summary and action items.
+    Put them into a nice markdown document.
+
+    - Use Date {date} for the meeting date
+    - Use the company name Badri-crewai for the company name
+    - User Badri for the name of the organizer
+    - The location was on Zoom.
+    - You need not mention attendees.
+    
+    If a specified information is not available leave it empty. You need not mention it is not available. work with things that you have.
+    
+    also write a subject for the meeting in the format 'Meeting Minutes - ....' do not use '|' in subject or in summary .
+    
+    use only bolds and underlines. Use <b>word</b> to get word in bold and <u>word</u> to get word underlined.''
+  expected_output: >
+    A meeting minutes document
+  agent: meeting_minutes_writer
